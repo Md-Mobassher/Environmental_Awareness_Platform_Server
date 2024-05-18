@@ -15,6 +15,7 @@ export interface TUser {
   status: 'in-progress' | 'blocked'
   role: 'superAdmin' | 'admin' | 'user'
   isDeleted: boolean
+  interests: string[]
 }
 
 export interface UserModel extends Model<TUser> {

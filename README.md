@@ -1,4 +1,4 @@
-# Server Name
+# Environmental Awareness Platform Server
 
 ## Deployment
 
