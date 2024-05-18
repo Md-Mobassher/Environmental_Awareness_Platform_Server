@@ -24,10 +24,10 @@ const createUserIntoDB = async (file: any, payload: TUser) => {
 
   return newUser
 }
+
 const updateUserIntoDB = async (userId: string, payload: Partial<TUser>) => {
   const result = await User.findByIdAndUpdate(userId, payload, {
     new: true,
-    runValidators: true,
   })
   return result
 }
