@@ -55,6 +55,11 @@ const userSchema = new Schema<TUser, UserModel>(
       type: Boolean,
       default: false,
     },
+    interests: {
+      type: [String],
+      required: true,
+      default: [],
+    },
   },
   {
     timestamps: true,

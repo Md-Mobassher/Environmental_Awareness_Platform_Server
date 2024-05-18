@@ -12,8 +12,8 @@ export interface TUser {
   dateOfBirth?: Date
   address: string
   profileImg?: string
-  status: 'in-progress' | 'blocked'
   role: 'superAdmin' | 'admin' | 'user'
+  status: 'in-progress' | 'blocked'
   isDeleted: boolean
   interests: string[]
 }
